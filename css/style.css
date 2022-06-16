@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+/* ===========
+Header Area
+============= */
+header {
+    height: 100px;
+    background-color: #fff;
+}
+.logo{
+    grid-column: span  1;
+    display: inline-block;
+}
+.main-manu{
+    grid-column: span 6;
+}
+.main-manu ul li {
+    display: inline-block;
+}
+.main-manu ul li a {
+    color: #404f54;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.header-right{
+    display: grid;
+    grid-column: span 5;
+    justify-items: end;
+}
+.header-right ul li {
+    display: inline-block;
+}
+.header-right ul li a {
+    color: #404f54;
+    text-transform: uppercase;
+    font-size: 14px;
+}
