@@ -7,7 +7,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	background-color: #f1f4f6;
+	color: #404f54;
+	background-color: #fff;
 }
 /* container, row and cols */
 .container{
@@ -103,17 +104,18 @@ a, button {
 }
 .btn {
     color: #ffff;
-    background-color: #fa7c30;
-    padding: 15px 25px;
+    background-color: #d02184;
+    padding: 15px 45px;
     font-size: 16px;
+    border-radius: 30px;
     font-weight: 700;
     border: 2px solid transparent;
     text-transform: uppercase;
     display: inline-block;
 }
 .btn:hover {
-    border-color: #fa7c30;
-    color: #fa7c30;
+    border-color: #d02184;
+    color: #d02184;
     background: none;
 }
 .b-btn {
@@ -178,7 +180,6 @@ p {
     font-weight: normal;
     line-height: 26px;
     color: #404f54;
-    margin-bottom: 15px;
 }
 hr {
     border-bottom: 1px solid #f4f4f4;
