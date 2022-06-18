@@ -102,3 +102,25 @@ section.feature_area {
     color: #1baba1;
     font-size: 21px;
 }
+/* ==================
+Content About Area
+===================== */
+.content_bg{
+    grid-column: span 6;
+}
+.content_bg img {
+    width: 100%;
+}
+.content_text {
+    background-color: #f4fafa;
+    grid-column: span 6;
+    padding-left: 70px;
+}
+.content_text a {
+    color: #1baba1;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.content_text a:hover {
+    border-bottom: 1px solid #1baba1;
+}

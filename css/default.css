@@ -18,7 +18,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-.container-fluid{
+.container_fluid{
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -113,6 +113,7 @@ a, button {
     border: 2px solid transparent;
     text-transform: uppercase;
     display: inline-block;
+	transition: 0.3s;
 }
 .btn:hover {
     border-color: #d02184;
@@ -128,6 +129,7 @@ a, button {
 	font-size: 16px;
 	font-weight: 700;
 	display: block;
+	transition: 0.3s;
 }
 .b-btn:hover{
 	color: #404f54;
@@ -158,10 +160,10 @@ h2 {
     font-size: 36px;
 }
 h3 {
-    font-size: 28px;
+    font-size: 30px;
 }
 h4 {
-    font-size: 22px;
+    font-size: 26px;
 }
 h5 {
     font-size: 18px;
