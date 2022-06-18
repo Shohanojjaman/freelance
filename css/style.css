@@ -28,14 +28,7 @@ header {
 Banner Area
 ============== */
 section.banner_area {
-    display: grid;
     height: 650px;
-    grid-template-rows: 150px;
-    padding-top: 75px;
-}
-section.banner_area .banner_text {
-    grid-column: 1 / 12;
-    text-align: center;
 }
 .banner_text h1 {
     font-size: 52px;
@@ -46,8 +39,6 @@ section.banner_area .banner_text {
     font-size: 21px;
 }
 section.banner_area .banner_form {
-    grid-column: 1 / 12;
-    text-align: center;
     position: relative;
 }
 .banner_form input[type="text"] {
@@ -66,7 +57,7 @@ section.banner_area .banner_form {
 }
 .banner_form button.btn {
     position: absolute;
-    right: 178px;
+    right: 37px;
     top: 6.5px;
 }
 /* =============
@@ -74,17 +65,9 @@ Feature Area
 ================ */
 section.feature_area {
     height: 280px;
-    display: grid;
-    align-content: center;
-}
-.feature_title{
-    grid-column: span 3;
 }
 .feature_title h4 {
     font-size: 26px;
-}
-.feature_item{
-    grid-column: span 3;
 }
 .feature_item h4 {
     color: #1baba1;
@@ -93,15 +76,14 @@ section.feature_area {
 /* ==================
 Content About Area
 ===================== */
-.content_bg{
-    grid-column: span 6;
+.content_about {
+    background-color: #f4fafa;
+    height: 435px;
 }
 .content_bg img {
     width: 100%;
 }
 .content_text {
-    background-color: #f4fafa;
-    grid-column: span 6;
     padding-left: 70px;
 }
 .content_text a {
