@@ -81,3 +81,24 @@ section.banner_area .banner_form {
     right: 178px;
     top: 6.5px;
 }
+/* =============
+Feature Area
+================ */
+section.feature_area {
+    height: 280px;
+    display: grid;
+    align-content: center;
+}
+.feature_title{
+    grid-column: span 3;
+}
+.feature_title h4 {
+    font-size: 26px;
+}
+.feature_item{
+    grid-column: span 3;
+}
+.feature_item h4 {
+    color: #1baba1;
+    font-size: 21px;
+}

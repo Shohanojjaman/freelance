@@ -21,6 +21,7 @@ body {
 .container-fluid{
 	width: 100%;
 	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -141,7 +142,7 @@ a, button {
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Lora', serif;
     font-weight: 700;
-    color: #161418;
+    color: #404f54;
     margin-top: 0px;
     font-style: normal;
     font-weight: 600;
