@@ -8,7 +8,7 @@ This is a PSD to HTML project.
 
 # Demo
 
-![PNG](home.png)
+![PNG Formet](img/home.png "Freelance | PNG Formet")
 ## [Live](https://shohanojjaman.github.io/freelance/)
 
 # Features
