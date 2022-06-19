@@ -331,13 +331,13 @@ a{
 	background: #f7f7fd;
 }
 .white-bg {
-	background: #fff;
+	background: #ffffff;
 }
 .black-bg {
-	background: #222;
+	background: #222222;
 }
 .theme-bg {
-	background: #fff;
+	background: #ffffff;
 }
 .primary-bg {
 	background: #f4fafa;
@@ -348,10 +348,10 @@ a{
 	color: #8a8b8d;
 }
 .white-color {
-	color: #fff;
+	color: #ffffff;
 }
 .black-color {
-	color: #000;
+	color: #000000;
 }
 .theme-color {
 	color: #fa7c30;

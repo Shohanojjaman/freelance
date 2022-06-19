@@ -78,7 +78,7 @@ Content About Area
 ===================== */
 .content_about {
     background-color: #f4fafa;
-    height: 435px;
+    height: 430px;
 }
 .content_bg img {
     width: 100%;
@@ -91,4 +91,14 @@ Content About Area
     font-weight: 700;
     transition: 0.3s;
     display: inline-block;
+}
+/* ====================
+Get Start Area
+======================= */
+.get_item {
+    padding: 40px;
+    transition:  0.3s;
+}
+.get_item:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 22, 27, 0.1);
 }
