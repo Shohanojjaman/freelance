@@ -102,3 +102,11 @@ Get Start Area
 .get_item:hover{
     box-shadow: 0 0 10px 0 rgba(0, 22, 27, 0.1);
 }
+/* =========
+Work Area
+============ */
+.work-text h4{
+    border-top: 2px solid #d02184;
+    display: inline-block;
+    text-transform: uppercase;
+}
