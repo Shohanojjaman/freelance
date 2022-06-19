@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+/* ==========
+Body Fonts
+============= */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
 /* ===========
 Header Area
 ============= */
@@ -109,4 +112,57 @@ Work Area
     border-top: 2px solid #d02184;
     display: inline-block;
     text-transform: uppercase;
+}
+/* ===============
+Subscribe Area
+================== */
+title h6{
+    text-transform: uppercase;
+}
+.price-area{
+    transition: 0.3s;
+}
+.price-area:hover{
+    box-shadow: 0 5px 50px 0 rgba(115, 115, 115, 0.15);
+}
+.price-area:hover .price-head{
+    background-color: #d02184;
+}
+.price-area:hover .price-head h6{
+    color: #fff;
+}
+.price-area:hover .price-head p{
+    color: #fff;
+}
+.price-area:hover .price-head span{
+    color: #fff;
+}
+.price-area:hover .price-head span.price{
+    color: #fff;
+}
+.price-area:hover .price-body ul li{
+    text-decoration: underline;
+}
+.price-head{
+    padding: 50px;
+    transition:0.3s;
+}
+.price-head h6{
+    font-size: 18px;
+}
+.price-head p{
+    font-size: 14px;
+}
+.price-head span {
+    font-size: 18px;
+}
+.price-head span.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    padding-right: 15px;
+}
+.price-body ul li {
+    padding-bottom: 40px;
+    transition: 0.3s;
 }

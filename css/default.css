@@ -188,11 +188,9 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-    color: #fa7c30;
     text-decoration: none;
 }
 a, button {
-    color: #fa7c30;
     outline: medium none;
 }
 .btn {
@@ -337,7 +335,7 @@ a{
 	background: #222222;
 }
 .theme-bg {
-	background: #ffffff;
+	background: #d02184;
 }
 .primary-bg {
 	background: #f4fafa;
