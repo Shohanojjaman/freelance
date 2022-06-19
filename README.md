@@ -8,8 +8,8 @@ This is a PSD to HTML project.
 
 # Demo
 
-[Live](https://shohanojjaman.github.io/freelance/)
 ![PNG](home.png)
+## [Live](https://shohanojjaman.github.io/freelance/)
 
 # Features
 
