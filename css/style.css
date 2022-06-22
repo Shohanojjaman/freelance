@@ -207,3 +207,76 @@ Brand Area
 .brand-area{
     background-color: #f4fafa;
 }
+/* =============
+Footer Area
+================ */
+.footer-top .about img{
+    margin-bottom: 30px;
+}
+.footer-top .about p{
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+.footer-top .about .social p{
+    font-size: 15px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.footer-top .about .social ul {
+    display: inline-block;
+}
+.footer-top .about .social ul li{
+    display: inline-block;
+}
+.footer-top .about .social ul li a{
+    color: #1baba1;
+    padding-left: 15px;
+}
+.footer-top .about input[type="email"] {
+    padding: 15px 10px;
+    width: 230px;
+    border: 1px solid #9ea4a6;
+}
+.footer-top .about input[type="email"]::placeholder {
+    color: #9ea4a6;
+    font-size: 15px;
+}
+.footer-top .about input[type="email"]:focus {
+    outline: none;
+}
+.footer-top .about button{
+    background-color: #d02184;
+    padding: 15px 40px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 230px;
+}
+.blog h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.blog-img {
+    float: left;
+    margin-right: 20px;
+}
+.blog-text p{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.blog-text span.date{
+    color: #d02184;
+}
+.instagram h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.instagram img{
+    width: 100%;
+}
+.footer-bottom .copy p{
+    color: #1baba1;
+}
