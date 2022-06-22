@@ -166,3 +166,38 @@ title h6{
     padding-bottom: 40px;
     transition: 0.3s;
 }
+.price-body ul li a {
+    color: #252525;
+}
+/* =================
+Testimonial Area
+==================== */
+.single-testimonia{
+    position: relative;
+}
+.single-testimonia:hover .testimonia-text{
+    background-color: #1baba1;
+}
+.single-testimonia:hover .testimonia-text span.name{
+    color: #fff;
+}
+.testimonia-img{
+    position: absolute;
+    content: "";
+    bottom: 0;
+}
+.testimonia-text {
+    padding: 65px 30px 30px;
+    transition:  0.3s;
+}
+.testimonia-text span.name {
+    font-weight: 700;
+    color: #1baba1;
+    display: inline-block;
+}
+.testimoia-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+}
