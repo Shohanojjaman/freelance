@@ -1,7 +1,7 @@
-// $(document).ready(function(){
-//     jQuery('.main-manu').meanmenu({
-//         meanMenuContainer: '.mobile-manu',
-//         meanScreenWidth: "768",
+jQuery(document).ready(function () {
 
-//     });
-// })
+    jQuery('.main-manu').meanmenu({
+        meanScreenWidth: "768",
+        meanMenuContainer: '.manu-place',
+    });
+});
