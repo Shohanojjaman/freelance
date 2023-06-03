@@ -1,319 +1,525 @@
-/* XXL Device :1200px. */
-@media (min-width: 1400px) {
-    .banner_form button.btn {
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .banner-text h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .banner-form input[type="text"] {
+        width: 700px;
+        padding: 20px 30px;
+    }
+
+    .btn {
+        padding: 13px 40px;
+        font-size: 14px;
+    }
+
+    .header-right ul li a.b-btn {
+        padding: 13px 35px;
+        font-size: 14px;
+    }
+
+    .banner-form button.btn {
         position: absolute;
-        right: 290px;
-        top: 6.5px;
+        right: 229px;
+        top: 5px;
+    }
+
+    .get-start a.btn {
+        margin-top: 20px;
+    }
+
+    .work-item h4 {
+        margin: 10px 0;
+        padding-top: 10px;
+    }
+
+    footer .footer-top .about p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    footer .footer-top .about .social {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    footer .footer-top .about .social p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    footer .blog .blog-text p {
+        font-size: 14px;
     }
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
     .main-manu ul li {
-        display: inline-block;
-        padding-right: 10px;
+        padding: 5px;
     }
-    .header-right ul li {
-        padding-left: 5px;
-    }
-    .b-btn {
-        padding: 15px 35px;
-    }
-    section.banner_area {
-        height: 650px;
-        background-position: center;
-        background-size: cover;
-    }
-    .banner_form input[type="text"] {
-        width: 700px;
-    }
-    .banner_form button.btn {
-        right: 127px;
-    }
-    p{
+
+    .main-manu ul li a {
         font-size: 14px;
     }
-    .content_text {
-        padding-left: 50px;
-    }
-    .content_about {
-        height: 327px;
-    }
-    .price-body {
-        padding-left: 0;
-        text-align: center;
-    }
-    .footer-top .about p {  
-        margin-bottom: 50px;
-    }
-    .blog-text p {
-        font-size: 10px;
-    }
-    .blog-text span.date {
-        font-size: 12px;
-    }
-}
-/* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-    .logo img {
-        width: 100%;
-    }
-    .main-manu ul{
-        text-align: center;
-    }
-    .header-right ul li a.b-btn {
-        padding: 10px 25px;
-        font-size: 13px;
-    }
-    .header-right {
-        text-align: center;
-    }
-    .header-right ul li {
-        padding-left: 0;
-        padding-right: 5px;
-    }
-    .header-right ul li  a{
-        font-size: 12px;
-    }
-    section.banner_area {
-        height: 490px;
-        background-position: center;
-    }
-    .banner_text h1 {
-        font-size: 42px;
-        margin-bottom: 10px;
-    }
-    .banner_text p {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    .banner_form input[type="text"] {
-        width: 520px;
-        padding: 20px 18px;
-    }
-    .banner_form button.btn {
-        right: 95px;
-    }
-    section.feature_area {
-        height: 200px;
-    }
-    .feature_title h4 {
-        font-size: 20px;
-    }
-    .feature_item h4 {
-        color: #1baba1;
-        font-size: 17px;
-    }
-    p{
-        font-size: 14px;
-    }
-    h4 {
-        font-size: 18px;
-    }
-    .content_about {
-        height: 247px;
-    }
-    .content_text {
-        padding-left: 40px;
-    }
-    .content_text p{
-        font-size: 11px;
-    }
-    .content_text a {
-        font-size: 14px;
-    }
+
     h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
-    section.get_start {
-        padding: 50px 0;
+
+    p {
+        font-size: 14px;
     }
-    .get_item p{
-        font-size: 13px;
-    }
+
     .btn {
-        padding: 10px 25px;
+        padding: 13px 40px;
         font-size: 14px;
     }
-    section.work {
-        padding: 50px 0;
+
+    .header-right ul li a.b-btn {
+        padding: 12px 30px;
+        font-size: 14px;
     }
-    section.subscribe-area {
-        padding: 50px 0;
+
+    .banner-text h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
     }
-    .price-head h6 {
-        font-size: 17px;
+
+    .banner-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
-    .price-head p {
+
+    .banner-form input[type="text"] {
+        width: 530px;
+        padding: 20px 35px;
+    }
+
+    .banner-form input[type="text"]::placeholder {
+        color: #9ea4a6;
+        font-size: 14px;
+    }
+
+    .banner-form button.btn {
+        right: 208px;
+        top: 4px;
+    }
+
+    .feature-item p {
         font-size: 13px;
     }
-    .price-head span.price {
-        font-size: 40px;
+
+    .content-text {
+        padding-left: 35px;
     }
-    .price-head span {
-        font-size: 12px;
+
+    .content-text h4 {
+        margin-bottom: 10px;
     }
+
+    .get-start a.btn {
+        margin-top: 10px;
+    }
+
+    .work-item h4 {
+        margin: 10px 0;
+        padding-top: 10px;
+    }
+
+    .price-head span span.price {
+        padding-right: 5px;
+        font-size: 45px;
+    }
+
     .price-body {
-        text-align: center;
-        padding: 60px 0 0 0;
+        padding: 40px 0 40px 60px;
     }
-    section.testomia-area {
-        padding: 50px 0;
+
+    .price-body ul li {
+        padding-bottom: 25px;
     }
-    .testimonia-text span.name {
-        font-size: 14px;
+
+    span.name {
         margin-top: 15px;
     }
-    section.brand-area {
-        padding-bottom: 50px;
-    }
-    .footer-top .about input[type="email"] {
-        width: 500px;
-    }
-    .footer-top .about button {
-        padding: 16px 30px;
-        margin-left: -4px;
-        width: 140px;
-    }
-    .blog {
-        margin-top: 40px;
-    }
-    .single-blog{
-        text-align: center;
-        width: 33.33%;
-        float: left;
-    }
-    .blog-img {
-        float: none;
-        margin-right: 0;
-    }
-    .footer-top .about p {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
-    .footer-top .about .social ul li a {
-        padding-right: 15px;
-        padding-left: 0;
-    }
-}
 
-/* Extra small Device. */
-@media (max-width: 767px) {
-    .logo img {
-        width: 100%;
-    }
-    .header-right {
-        text-align: center;
-    }
-    .header-right ul li a.b-btn {
-        color: #b9bdbe;
-        font-size: 12px;
-        padding: 7px 15px;
-    }
-    .header-right ul li {
-        padding-left: 0;
-        padding-right: 5px;
-    }
-    .header-right ul li  a{
-        font-size: 12px;
-    }
-    section.banner_area {
-        height: 450px;
-    }
-    .banner_text h1 {
-        font-size: 30px;
+    footer .about img {
         margin-bottom: 10px;
     }
-    .banner_text p {
-        color: #404f54;
-        font-size: 15px;
+
+    footer .about p {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-top .about .social {
+        margin-bottom: 20px;
+    }
+
+    footer .about .social p {
+        margin-bottom: 0;
+    }
+
+    footer .footer-top .about .social ul li a {
+        padding-left: 9px;
+    }
+
+    footer .blog h6 {
         margin-bottom: 10px;
     }
-    .banner_form input[type="text"] {
-        width: 330px;
-        padding: 20px 18px;
-    }
-    .banner_form input[type="text"]::placeholder {
-        font-size: 12px;
-    }
-    .banner_form button.btn {
-        right: 35px;
-    }
-    section.feature_area {
-        height: 200px;
-        margin: 7px;
-    }
-    .feature_title h4 {
-        font-size: 18px;
-    }
-    .feature_item h4 {
-        font-size: 15px;
-    }
-    .feature_item p {
-        font-size: 11px;
-    }
-    .content_about {
-        height: 600px;
-    }
-    .content_text {
-        padding: 30px 0 0 30px;
-    }
-    .content_text h4 {
-        font-size: 23px;
-    }
-    .btn {
-        padding: 10px 25px;
-        font-size: 14px;
-    }
-    section.get_start {
-        padding: 50px 30px;
-    }
-    .title.text-center h2 {
-        font-size: 26px;
-    }
-    .title.text-center p {
-        font-size: 14px;
-    }
-    section.work {
-        padding: 50px 30px;
-    }
-    section.subscribe-area {
-        padding: 50px 30px;
-    }
-    .price-area {
-        margin-bottom: 30px;
-    }
-    section.testomia-area {
-        padding: 50px 0;
-    }
-    section.brand-area {
-        padding-bottom: 50px;
-    }
-    .brand img {
-        width: 100%;
-    }
-    .footer-top .about p {
-        margin-bottom: 30px;
-    }
-    .footer-top .about input[type="email"] {
-        width: 380px;
-    }
-    .footer-top .about button {
-        width: 380px;
-    }
-    .blog {
-        margin: 50px 0;
-    }
-    .instagram {
-        padding: 0 20px;
-    }
-    .copy {
-        margin-bottom: 30px;
+
+    footer .blog .blog-text p {
+        font-size: 13px;
+        line-height: 1.5;
     }
 
-}
- 
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+    footer .blog .blog-text span {
+        font-size: 14px;
+    }
 
-}
+    footer .instagram h6 {
+        margin-bottom: 10px;
+    }
+
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .logo img {
+            width: 100%;
+        }
+
+        .main-manu ul {
+            text-align: center;
+        }
+
+        .b-btn {
+            padding: 6px 15px;
+            font-size: 14px;
+        }
+
+        .header-right {
+            text-align: center;
+        }
+
+        .header-right ul li {
+            padding-left: 0;
+            padding-right: 5px;
+        }
+
+        .header-right ul li a {
+            font-size: 12px;
+        }
+
+        section.banner_area {
+            height: 490px;
+            background-position: center;
+        }
+
+        .banner_text h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .banner_text p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .banner_form input[type="text"] {
+            width: 520px;
+            padding: 20px 18px;
+        }
+
+        .banner_form button.btn {
+            right: 95px;
+        }
+
+        section.feature_area {
+            height: 200px;
+        }
+
+        .feature_title h4 {
+            font-size: 20px;
+        }
+
+        .feature_item h4 {
+            color: #1baba1;
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        .content_about {
+            height: 247px;
+        }
+
+        .content_text {
+            padding-left: 40px;
+        }
+
+        .content_text p {
+            font-size: 11px;
+        }
+
+        .content_text a {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        section.get_start {
+            padding: 50px 0;
+        }
+
+        .get_item p {
+            font-size: 13px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            font-size: 14px;
+        }
+
+        section.work {
+            padding: 50px 0;
+        }
+
+        section.subscribe-area {
+            padding: 50px 0;
+        }
+
+        .price-head h6 {
+            font-size: 17px;
+        }
+
+        .price-head p {
+            font-size: 13px;
+        }
+
+        .price-head span.price {
+            font-size: 40px;
+        }
+
+        .price-head span {
+            font-size: 12px;
+        }
+
+        .price-body {
+            text-align: center;
+            padding: 60px 0 0 0;
+        }
+
+        section.testomia-area {
+            padding: 50px 0;
+        }
+
+        .testimonia-text span.name {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        section.brand-area {
+            padding-bottom: 50px;
+        }
+
+        .footer-top .about input[type="email"] {
+            width: 500px;
+        }
+
+        .footer-top .about button {
+            padding: 16px 30px;
+            margin-left: -4px;
+            width: 140px;
+        }
+
+        .blog {
+            margin-top: 40px;
+        }
+
+        .single-blog {
+            text-align: center;
+            width: 33.33%;
+            float: left;
+        }
+
+        .blog-img {
+            float: none;
+            margin-right: 0;
+        }
+
+        .footer-top .about p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .footer-top .about .social ul li a {
+            padding-right: 15px;
+            padding-left: 0;
+        }
+    }
+
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+        .logo img {
+            width: 100%;
+        }
+
+        .header-right {
+            text-align: center;
+        }
+
+        .header-right ul li a.b-btn {
+            color: #b9bdbe;
+            font-size: 12px;
+            padding: 7px 15px;
+        }
+
+        .header-right ul li {
+            padding-left: 0;
+            padding-right: 5px;
+        }
+
+        .header-right ul li a {
+            font-size: 12px;
+        }
+
+        section.banner_area {
+            height: 450px;
+        }
+
+        .banner_text h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .banner_text p {
+            color: #404f54;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .banner_form input[type="text"] {
+            width: 330px;
+            padding: 20px 18px;
+        }
+
+        .banner_form input[type="text"]::placeholder {
+            font-size: 12px;
+        }
+
+        .banner_form button.btn {
+            right: 35px;
+        }
+
+        section.feature_area {
+            height: 200px;
+            margin: 7px;
+        }
+
+        .feature_title h4 {
+            font-size: 18px;
+        }
+
+        .feature_item h4 {
+            font-size: 15px;
+        }
+
+        .feature_item p {
+            font-size: 11px;
+        }
+
+        .content_about {
+            height: 600px;
+        }
+
+        .content_text {
+            padding: 30px 0 0 30px;
+        }
+
+        .content_text h4 {
+            font-size: 23px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            font-size: 14px;
+        }
+
+        section.get_start {
+            padding: 50px 30px;
+        }
+
+        .title.text-center h2 {
+            font-size: 26px;
+        }
+
+        .title.text-center p {
+            font-size: 14px;
+        }
+
+        section.work {
+            padding: 50px 30px;
+        }
+
+        section.subscribe-area {
+            padding: 50px 30px;
+        }
+
+        .price-area {
+            margin-bottom: 30px;
+        }
+
+        section.testomia-area {
+            padding: 50px 0;
+        }
+
+        section.brand-area {
+            padding-bottom: 50px;
+        }
+
+        .brand img {
+            width: 100%;
+        }
+
+        .footer-top .about p {
+            margin-bottom: 30px;
+        }
+
+        .footer-top .about input[type="email"] {
+            width: 380px;
+        }
+
+        .footer-top .about button {
+            width: 380px;
+        }
+
+        .blog {
+            margin: 50px 0;
+        }
+
+        .instagram {
+            padding: 0 20px;
+        }
+
+        .copy {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {}
